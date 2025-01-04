@@ -141,12 +141,15 @@ footer > p {
 .icone {
     height: 3em;
     width:  3em;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
 
 article > ul {
     display: flex;
     flex-flow: column nowrap;
     margin-left: 1em;
+    margin-right: 1em;
     margin-bottom: 1em;
     list-style: none;
     
@@ -155,4 +158,19 @@ article > ul {
 article > ul > li > a {
     text-decoration: none;
     padding-left: 1em;
+    font-size: 0.8em;
+    align-items: center;
+    display: flex;
+}
+
+article > ul > li {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+article > ul > li > a:hover {
+    cursor: pointer;
+    color: blue;
+    transform: scale(1.1);
 }
