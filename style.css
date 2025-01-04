@@ -80,7 +80,7 @@ nav {
     display: flex;
     justify-content: flex-start;
     flex-flow: row nowrap;
-    flex: 0 1 auto;
+    flex: 1 1 30px;
 
     
 }
@@ -96,9 +96,10 @@ nav > a {
     font-weight: bold;
     color: black;
     border-radius: 3px;
-    flex: 0 1 49px;
+    flex: 1 1 30px;
     font-size: 0.9em;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
+    text-align: center;
     
 
 }
