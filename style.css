@@ -129,12 +129,13 @@ nav > a:hover {
 footer {
     background-color: rgb(0, 0, 0);
     width: 100vw;
-    position: fixed;
+   
 }
 footer > p {
     color: rgb(255, 255, 255);
     font-size: 0.7em;
-    height: 0.7em;
+    margin: 0px;
+    padding: 0px;
     
     
 }
@@ -151,7 +152,8 @@ article > ul {
     flex-flow: column nowrap;
     margin-left: 1em;
     margin-right: 1em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    margin-top: 3em;
     list-style: none;
     
 }
@@ -168,10 +170,26 @@ article > ul > li {
     align-items: center;
     display: flex;
     justify-content: flex-start;
+    margin-left: 2em;
 }
 
 article > ul > li > a:hover {
     cursor: pointer;
     color: blue;
     transform: scale(1.1);
+}
+
+#ifra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: rgb(0, 0, 0);
+}
+article > h2 {
+    text-align: center;
+    font-size: 1em;
+    margin: 1em;
+    margin-top: 2em;
 }
