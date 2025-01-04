@@ -103,6 +103,15 @@ nav > a {
     
 
 }
+
+nav > a:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.233);
+    cursor: pointer;
+    
+}
 #logo {
     margin: 20px;
     
@@ -127,4 +136,23 @@ footer > p {
     height: 0.7em;
     
     
+}
+
+.icone {
+    height: 3em;
+    width:  3em;
+}
+
+article > ul {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    list-style: none;
+    
+}
+
+article > ul > li > a {
+    text-decoration: none;
+    padding-left: 1em;
 }
