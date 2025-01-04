@@ -81,6 +81,8 @@ nav {
     justify-content: flex-start;
     flex-flow: row nowrap;
     flex: 1 1 30px;
+    background-color: black;
+    border-radius: 11px 11px 0px 0px;
 
     
 }
