@@ -50,13 +50,13 @@ section {
     height: auto;
     width: 70vw;
     flex: auto;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.349);
+    border-radius: 15px;
+    
     
 }
 #sect {
     display: flex;
-    padding: 1.5em 3em;
+    padding: 1.5em 2em;
     align-items: center;
     justify-content: center;
 }
