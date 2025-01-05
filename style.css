@@ -314,4 +314,9 @@ article > h2 {
         align-self: center;
         margin: 1em;
         justify-self: center;
+        border: 1px solid black;
+}
+#galerias > p {
+    text-decoration: underline;
+    font-weight: bold;
 }
