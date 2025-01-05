@@ -20,9 +20,21 @@ nav > a {
 #menub {
     display: none;
 }
+#estrofe1 {
+    background-image: url(imagens/batismo/cover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#estrofe1 > p {
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+}
 
 #estrofe2 {
-    background-image: url(imagens/466404433_18020823503632948_3924140652156457879_n.jpg);
+    background-image: url(imagens/batismo/cover.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,28 +69,16 @@ nav > a {
     #menub {
         display: none;
     }
-    #estrofe2 {
-        background-image: url(imagens/466404433_18020823503632948_3924140652156457879_n.jpg);
-        background-position: center;
+    #estrofe1, #estrofe2, #estrofe3 {
+        background-image: url(imagens/batismo/cover.png);
+        background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         
     }
-    #estrofe2 > p {
+    #estrofe1 > p, #estrofe2 > p,  #estrofe3 > p {
         background-color: rgba(0, 0, 0, 0.589);
         color: white;
     }
-    #estrofe3 {
-        background-image: url(imagens/466404433_18020823503632948_3924140652156457879_n.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-    #estrofe3 > p {
-
-    background-color: rgba(0, 0, 0, 0.589);
-    color: white;
-    }
-}
+}    
