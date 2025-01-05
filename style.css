@@ -312,7 +312,7 @@ article > h2 {
 }
 #galerias > img { 
         align-self: center;
-        margin: 1em;
+        margin-left: 5.5em;
         justify-self: center;
         border: 1px solid black;
 }
