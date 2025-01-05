@@ -284,8 +284,8 @@ article > h2 {
     text-decoration: underline;
 }
 .banner {
-    height: 170px;
-    width: 300px;
+    height: auto;
+    width: 70vw;
     border: 1px solid black;
     
 }
