@@ -238,18 +238,17 @@ article > h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-flow: row wrap;
-    
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    flex-flow: column wrap;
+    margin-bottom: 2em;
+}
+#banners > p {
+    font-weight: bold;
 }
 .banner {
     height: 170px;
     width: 300px;
-    margin: 1em;
     border: 1px solid black;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    margin-bottom: 2em;
+    
 }
 #estrofe1 {
     background-image: url(imagens/466404433_18020823503632948_3924140652156457879_n.jpg);
