@@ -1,7 +1,7 @@
 @charset "UTF-8"; 
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -32,6 +32,7 @@ header {
     background-size: cover;
     width: 100vw;
     flex-flow: column nowrap;
+    
     
 }
 
@@ -116,17 +117,29 @@ nav > a:hover {
 }
 #logo {
     margin: 20px;
+   display: flex; 
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+    
     
 }
 
 #logo > img {
     height: 8em;
     width: 8em;
+    
+    
 }
 #init {
     text-align: center;
     margin-top: 1em;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+    
+}
+#init2 {
+    display: flex;
+    flex-flow: column nowrap;
 }
 footer {
     background-color: rgb(0, 0, 0);
@@ -179,6 +192,7 @@ article > ul > li > a:hover {
     cursor: pointer;
     color: blue;
     transform: scale(1.1);
+
 }
 
 #ifra {
@@ -212,4 +226,51 @@ article > h2 {
     height: 1em;
     width: 1em;
     margin-left: 0.3em;
+}
+#logo > h1 {
+    color: white;
+    margin-left: 0.5em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.39);
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: "DM Serif Text", 'Times New Roman', Times, serif;
+}
+#banners {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+}
+.banner {
+    height: 310px;
+    width: 570px;
+    margin: 1em;
+    border: 1px solid black;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 2em;
+}
+#estrofe1 {
+    background-image: url(imagens/466404433_18020823503632948_3924140652156457879_n.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#estrofe1 > p {
+    background-color: rgba(0, 0, 0, 0.589);
+}
+#estrofe2 {
+    background-image: url(imagens/aparecida.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#estrofe2 > p {
+    background-color: rgba(0, 0, 0, 0.589);
 }
