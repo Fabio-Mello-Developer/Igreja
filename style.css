@@ -32,6 +32,8 @@ header {
     background-size: cover;
     width: 100vw;
     flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     
     
 }
@@ -69,18 +71,46 @@ section {
     display: flex;
     align-items: center ;
     justify-content: center;
-    flex: 0 1 auto;
+    flex: 1 1 auto;
+    flex-flow: column wrap;
+    display: none;
+}
+#menub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+#menub > span {
+    text-align: center;
+    font-size: 2.5em;
+}
+#burger {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    align-self: center;
+    justify-self: center;
+
+}
+#burger:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+    
 }
 #tit {
     display: flex;
     align-items: center ;
     justify-content: center ;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
 }
 nav {
     
     display: flex;
-    justify-content: flex-start;
-    flex-flow: row nowrap;
+    flex-flow: column wrap;
     flex: 1 1 30px;
     background-color: black;
     border-radius: 11px 11px 0px 0px;
@@ -92,6 +122,7 @@ nav > a {
     border: 1px solid rgb(0, 0, 0);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473);
     padding: 0.5em;
+    width: 100vw;
    
     
     text-decoration: none;
@@ -243,6 +274,7 @@ article > h2 {
 }
 #banners > p {
     font-weight: bold;
+    text-decoration: underline;
 }
 .banner {
     height: 170px;

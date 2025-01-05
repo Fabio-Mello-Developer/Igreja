@@ -6,6 +6,7 @@
     <title>Ministério Boas Novas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/logo100x100px.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
 
 </head>
 <body id="body1">
@@ -19,12 +20,16 @@
                     
 
                 </div>
-                
+                <div id="menub">
+                    <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">
+                        menu
+                        </span>
+                </div>
                 
             </div>
             <div id="navi">
                 <nav>
-                    <a href="#">Início <img src="imagens/botao-home.png" alt="home buttom" class="ico3"></a>
+                    <a href="#">Início </a>
                     <a href="#">Notícias</a>
                     <a href="agenda.html">Agenda</a>
                     <a href="#">Galeria</a>
@@ -62,5 +67,16 @@
             <p title="Pastor Local">Pastor: Leonardo Santos</p>
         
     </footer>
+
+    <script>
+        function clickMenu() {
+
+            if (navi.style.display == "block") {
+                navi.style.display = "none"
+            } else {
+                navi.style.display = "block"
+            }
+        }
+    </script>
 </body>
 </html>
