@@ -1,5 +1,84 @@
 @charset "UTF-8";
 
-@media screen and (min-width: ){
+@media screen and (min-width: 600px ) and (max-width: 996px) {
     
+#navi {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
+
+}
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1 1 auto;
+}
+nav > a {
+    width: 19.7vw;
+}
+
+#menub {
+    display: none;
+}
+
+#estrofe2 {
+    background-image: url(imagens/466404433_18020823503632948_3924140652156457879_n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#estrofe2 > p {
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+}
+
+
+
+}
+
+@media screen and (min-width: 996px) {
+    #navi {
+        display: flex;
+        flex-flow: row nowrap;
+        flex: 1 1 auto;
+    
+    }
+    nav {
+        display: flex;
+        flex-flow: row nowrap;
+        flex: 1 1 auto;
+    }
+    nav > a {
+        width: 19.7vw;
+    }
+    
+    #menub {
+        display: none;
+    }
+    #estrofe2 {
+        background-image: url(imagens/466404433_18020823503632948_3924140652156457879_n.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    #estrofe2 > p {
+        background-color: rgba(0, 0, 0, 0.589);
+        color: white;
+    }
+    #estrofe3 {
+        background-image: url(imagens/466404433_18020823503632948_3924140652156457879_n.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #estrofe3 > p {
+
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    }
 }
