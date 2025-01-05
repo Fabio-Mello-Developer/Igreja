@@ -323,3 +323,12 @@ article > h2 {
     font-weight: bold;
     
 }
+
+.vertical {
+    height: 310px;
+    width: 230px;
+}
+.horizontal {
+    height: 230px;
+    width: 310px;
+}
