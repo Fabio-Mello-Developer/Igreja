@@ -244,8 +244,8 @@ article > h2 {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
 }
 .banner {
-    height: 310px;
-    width: 570px;
+    height: 170px;
+    width: 300px;
     margin: 1em;
     border: 1px solid black;
     margin-left: 0.5em;
@@ -263,14 +263,5 @@ article > h2 {
 #estrofe1 > p {
     background-color: rgba(0, 0, 0, 0.589);
 }
-#estrofe2 {
-    background-image: url(imagens/aparecida.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
-#estrofe2 > p {
-    background-color: rgba(0, 0, 0, 0.589);
-}
+
+
