@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministério Boas Novas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/logo100x100px.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+
+</head>
+<body>
+    <main>
+        <header>
+
+            <div id="tit">
+                <div id="logo"><img src="imagens/Design sem nome.png" alt="Logo da Igreja" ></div>
+                <div id="menub">
+                    <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">
+                        menu
+                        </span>
+                </div>
+                
+            </div>
+            <div id="navi">
+                <nav>
+                    <a href="index.html">Início <img src="imagens/botao-home.png" alt="home buttom" class="ico3"></a>
+                    <a href="#">Notícias</a>
+                    <a href="agenda.html">Agenda</a>
+                    <a href="#">Galeria</a>
+                    <a href="contato.html">Contato</a>
+                </nav>
+            </div>
+
+        </header>
+
+        <div id="sect">
+            <section id="sectiongaleria">
+                <article>
+                    <h1 id="init">Galeria  <img src="imagens/galeria.png" alt="calendario" class="ico2"></h1>
+                    <p>Nossa galeria de fotos com momentos inesquecíveis da presença do Senhor em nosso meio</p>
+                    <div id="galerias">
+                        <p>Batismo</p>
+                        <img src="imagens/batismo/466790403_18020823524632948_170901535606837901_n.jpg" alt="foto" class="galeria" style="height: 260px;
+    width: 200px;">
+                        <img src="imagens/batismo/466569481_18020823530632948_7748720954142388706_n.jpg" alt="foto" class="galeria" style="height: 260px;
+    width: 200px;">
+                       <img src="imagens/batismo/466418964_18020822507632948_557592146355062394_n.jpg" alt="foto" class="galeria" style="height: 260px;
+    width: 200px;"> 
+                        <img src="imagens/batismo/466409022_18020822081632948_7610596669886231627_n.jpg" alt="foto" class="galeria" style="height: 200px;
+    width: 260px;">     
+                        <img src="imagens/batismo/466377834_18020823527632948_2764875163554096569_n.jpg" alt="foto" class="galeria" style="height: 260px;
+    width: 200px;">
+                        <img src="imagens/batismo/466377272_18020821592632948_7992572939267666870_n.jpg" alt="foto" class="galeria" style="height: 260px;
+    width: 200px;">
+                        <img src="imagens/batismo/466370423_18020822102632948_7838236956555537429_n.jpg" alt="foto" class="galeria" style="height: 200px;
+    width: 260px;">  
+                        <img src="imagens/batismo/466369362_18020822531632948_4677365866896887921_n.jpg" alt="foto" class="galeria" style="height: 260px;
+    width: 200px;">
+                          <img src="imagens/batismo/466354165_18020822126632948_630467311791472524_n.jpg" alt="foto" class="galeria" style="height: 200px;
+    width: 260px;">         
+                        <img src="imagens/batismo/466304980_18020821451632948_3713740653969377343_n.jpg" alt="foto" class="galeria" style="height: 260px;
+    width: 200px;">
+                        <img src="imagens/batismo/466075177_18020821526632948_7169941932236989191_n.jpg" alt="foto" class="galeria" style="height: 260px;
+    width: 200px;">
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p> Assembléia de Deus Ministério Boas Novas - End: Rua 7, n° 71 - Campos Elíseos - Duque de Caxias - RJ - 2025.</p>
+            <p title="Pastor Local">Pastor: Leonardo Santos</p>
+        
+    </footer>
+    <script>
+        function clickMenu() {
+
+            if (navi.style.display == "block") {
+                navi.style.display = "none"
+            } else {
+                navi.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
