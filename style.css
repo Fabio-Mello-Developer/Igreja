@@ -300,23 +300,25 @@ article > h2 {
 #estrofe1 > p {
     background-color: rgba(0, 0, 0, 0.589);
 }
-#galerias > { 
+#galerias  { 
 
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    margin-bottom: 2em;
+    
     
     
 }
 #galerias > img { 
         align-self: center;
-        margin-left: 5.5em;
+        margin: 0.4em;
         justify-self: center;
         border: 1px solid black;
 }
-#galerias > p {
+#batism {
     text-decoration: underline;
     font-weight: bold;
+    
 }
